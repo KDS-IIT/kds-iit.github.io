@@ -1,0 +1,113 @@
+#header {
+  background-image: none;
+  background-color: #F3F3F3;
+  border-bottom: 1px solid #CBC9CF;
+  Height: 120px;
+  background: url("https://s3.amazonaws.com/SSL_Assets/K12Branding/White+Canvas+BG.png") repeat scroll 0 0 transparent;
+}
+
+#header-logo, #header.no-user #header-logo {
+  background: url("https://s3.amazonaws.com/SSL_Assets/K12Branding/Canvas-Logo_grey.png") no-repeat scroll 0 0 transparent;
+  bottom: 5px;
+  height: 70px;
+  left: 35px;
+  width: 220px;
+ padding-bottom: 10px;
+}
+
+#header-logo-secondary {
+  background: url("https://s3.amazonaws.com/SSL_Assets/K12Branding/Logo-Canvas.png") no-repeat scroll 0 0 transparent;
+  bottom: 11px;
+  height: 26;
+  position: absolute;
+  right: 26px;
+  width: 135px;
+  display: block;
+}
+
+/*change the identity bar (the area that says ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œRobb Shirley Inbox Settings Logout Help)*/
+#identity {
+  background-image: none;
+  background-color: #45535F;
+ font-size: 12px;
+}
+
+/*change the color of the identity text*/
+#identity a { color: white; }
+/*change the color of the circle around the number of unread inbox messages*/
+#identity .inbox a .unread-messages-count { background-color: #64B045; }
+#identity #identity-help-container a { color: white; }
+
+.menu-item .menu-item-title, .menu-item .menu-item-no-drop {
+  color: black;
+  text-shadow: none;
+ height: 80px;
+ width: 140px;
+ text-align: center;
+ font-size: 14px;
+ left: 90px;
+ border-style:none;
+}
+
+.menu-item-no-drop { line-height: 10; }
+
+#grades_menu_item .menu-item-no-drop{
+ background: url(https://s3.amazonaws.com/SSL_Assets/K12Branding/grades-l.png) no-repeat center top;
+}
+
+#courses_menu_item .menu-item-title, #courses_menu_item .menu-item-no-drop{
+ background: url(https://s3.amazonaws.com/SSL_Assets/K12Branding/courses-ll.png) no-repeat center top;
+}
+
+#calendar_menu_item .menu-item-no-drop{
+ background: url(https://s3.amazonaws.com/SSL_Assets/K12Branding/calendar-ll.png) no-repeat center top;
+}
+
+#context_external_tool_105174_menu_item .menu-item-no-drop{
+ background: url(https://s3.amazonaws.com/SSL_Assets/K12Branding/icon-literary-translation.png) no-repeat center top;
+}
+
+#menu { height: 92px; }
+
+#menu li { line-height: 10; }
+
+#header-logo-secondary {
+background: url() no-repeat top center;
+display: block !important;
+  bottom: 18px;
+  height: 35px;
+  left: 1150px;
+  width: 220px;
+ padding-bottom: 10px;
+}
+
+.menu-item .menu-item-drop{
+	top: 92px;
+}
+
+/*login box*/
+body.modal #modal-box.login-box {
+ background: url("https://s3.amazonaws.com/SSL_Assets/K12Branding/Canvas+Panda+Eating.gif") no-repeat #ef4b3a scroll center top;
+}
+
+#register_link { display: none; }
+
+/*this will remove the extra canvas logo*/
+body.modal #modal-box.login-box h1 {
+  background: none;
+  height: 215px;
+}
+
+/*resize the login box to fit my image and change the color of 'stay signed in'*/
+body.modal #modal-box.login-box {
+  height: 405px;
+  width: 623px;
+  color: black;
+}
+
+#modal-box .btn { margin-right: 37px !important; }
+
+#login_form .login-options { color: #CBC9CF; }
+
+/*change the color of 'don't know your password'*/
+body.modal #modal-box.login-box a { color: #CBC9CF !important; }
