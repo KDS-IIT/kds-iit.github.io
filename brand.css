@@ -28,8 +28,7 @@
 /*change the identity bar (the area that says ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œRobb Shirley Inbox Settings Logout Help)*/
 #identity {
   background-image: none;
-  /*background-color: #45535F;*/
-  background-color: #FFFFFF;
+  background-color: #45535F;
  font-size: 12px;
 }
 
