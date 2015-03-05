@@ -28,12 +28,13 @@
 /*change the identity bar (the area that says ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œRobb Shirley Inbox Settings Logout Help)*/
 #identity {
   background-image: none;
-  background-color: #45535F;
+  /*background-color: #45535F;*/
+  background-color: #FFFFFF;
  font-size: 12px;
 }
 
 /*change the color of the identity text*/
-#identity a { color: green; }
+#identity a { color: white; }
 /*change the color of the circle around the number of unread inbox messages*/
 #identity .inbox a .unread-messages-count { background-color: #64B045; }
 #identity #identity-help-container a { color: white; }
